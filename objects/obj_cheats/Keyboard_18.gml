@@ -13,3 +13,7 @@ if (keyboard_check_pressed(ord("L"))) {
 if (keyboard_check_pressed(ord("N"))) {
 	room_goto_next()
 }
+
+if (keyboard_check_pressed(ord("B"))) {
+	room_goto_previous()
+}

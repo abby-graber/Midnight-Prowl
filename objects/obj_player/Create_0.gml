@@ -1,4 +1,4 @@
-mask_index = spr_playerMask;
+// mask_index = spr_playerMask;
 
 gravity_direction = 270
 
