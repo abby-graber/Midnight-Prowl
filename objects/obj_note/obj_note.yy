@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_note",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_note",
   "overriddenProperties":[],
@@ -23,7 +25,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"note_text","filters":[],"listItems":[],"multiselect":false,"name":"note_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"This is a note.\\nYou can change this text per instance.\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"note_sprite","filters":[],"listItems":[],"multiselect":false,"name":"note_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_stickyNote","path":"sprites/spr_stickyNote/spr_stickyNote.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_stickyNote","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

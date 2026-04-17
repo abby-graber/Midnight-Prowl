@@ -23,7 +23,7 @@
   ],
   "name":"spr_playerMask",
   "nineSlice":null,
-  "origin":9,
+  "origin":1,
   "parent":{
     "name":"Characters",
     "path":"folders/Sprites/Characters.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":48,
-    "yorigin":17,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
