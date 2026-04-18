@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Midnight Prowl",
   "resources":[
@@ -57,6 +57,8 @@
     {"id":{"name":"obj_playerController","path":"objects/obj_playerController/obj_playerController.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
+    {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},},
+    {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},},
     {"id":{"name":"rm_endScreen","path":"rooms/rm_endScreen/rm_endScreen.yy",},},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
