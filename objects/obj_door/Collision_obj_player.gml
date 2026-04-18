@@ -1,1 +1,1 @@
-room_goto(rm_startScreen)
+room_goto(rm_endScreen)
