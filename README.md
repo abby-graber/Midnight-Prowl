@@ -35,3 +35,9 @@ Alt + B: Goes to the previous room
 Alt + R: Resets the game
 
 Alt + F: Toggles window to fullscreen
+
+
+
+Licensing:
+
+All Artwork by Abby Graber (2026)
