@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dopp3",
-  "eventList":[],
+  "%Name":"obj_gameOver",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_dopp3",
+  "name":"obj_gameOver",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dopplegangers",
-    "path":"folders/Objects/Items/Dopplegangers.yy",
+    "name":"Text",
+    "path":"folders/Objects/Text.yy",
   },
-  "parentObjectId":{
-    "name":"obj_dopp1",
-    "path":"objects/obj_dopp1/obj_dopp1.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_dopp3",
-    "path":"sprites/spr_dopp3/spr_dopp3.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

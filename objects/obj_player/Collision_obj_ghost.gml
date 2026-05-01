@@ -1,0 +1,1 @@
+global.flash_timer = global.flash_duration;

@@ -10,8 +10,8 @@
     "path":"folders/Objects/Items/Dopplegangers.yy",
   },
   "parentObjectId":{
-    "name":"obj_real",
-    "path":"objects/obj_real/obj_real.yy",
+    "name":"obj_dopp1",
+    "path":"objects/obj_dopp1/obj_dopp1.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

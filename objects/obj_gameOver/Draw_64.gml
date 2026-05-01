@@ -4,16 +4,16 @@ draw_set_valign(fa_middle);
 draw_set_font(fnt_title);
 
 var centerX = 688;
-var titleY = 625;
+var titleY = 384;
 
 draw_set_color(c_white);
-draw_text(centerX, titleY, "End");
+draw_text(centerX, titleY, "Game Over :(");
 
 // Button
 draw_set_font(fnt_ui);
 
 var buttonText = "Return to Start";
-var buttonY = titleY + 50;
+var buttonY = titleY + 100;
 
 var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);

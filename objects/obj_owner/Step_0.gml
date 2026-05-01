@@ -4,30 +4,28 @@ push_dir = 0;
 // Horizontal movement
 var hsp = 0;
 
-if (keyboard_check(vk_left)) {
+if (keyboard_check(ord("A"))) {
     hsp = -move_speed;
-	
-	if (place_meeting(x, y + 1, obj_block) && (walk_particle_timer <= 0)) {
-		part_particles_burst(ps, x - 20, bbox_bottom - 5, ps_walk)
-		walk_particle_timer = walk_particle_delay;
-	}
-	
     push_dir = -1;
     moving = true;
-    image_xscale = -abs(image_xscale);
-}
-
-if (keyboard_check(vk_right)) {
-    hsp = move_speed;
+    image_xscale = abs(image_xscale);
 	
 	if (place_meeting(x, y + 1, obj_block) && (walk_particle_timer <= 0)) {
 		part_particles_burst(ps, x - 20, bbox_bottom - 5, ps_walk)
 		walk_particle_timer = walk_particle_delay;
 	}
-	
+}
+
+if (keyboard_check(ord("D"))) {
+    hsp = move_speed;
     push_dir = 1;
     moving = true;
-    image_xscale = abs(image_xscale);
+    image_xscale = -abs(image_xscale);
+	
+	if (place_meeting(x, y + 1, obj_block) && (walk_particle_timer <= 0)) {
+		part_particles_burst(ps, x - 20, bbox_bottom - 5, ps_walk)
+		walk_particle_timer = walk_particle_delay;
+	}
 }
 
 // Horizontal collision with walls only
@@ -41,7 +39,7 @@ if (place_meeting(x + hsp, y, obj_block)) {
 x += hsp;
 
 // Jump
-if (keyboard_check_pressed(vk_up) && (place_meeting(x, y + 1, obj_block) || place_meeting(x, y + 1, obj_box))) {
+if (keyboard_check_pressed(ord("W")) && (place_meeting(x, y + 1, obj_block) || place_meeting(x, y + 1, obj_box))) {
     vspeed = jump_height;
 }
 
@@ -62,37 +60,9 @@ if (place_meeting(x, y + vspeed, obj_block) || place_meeting(x, y + vspeed, obj_
 y += vspeed;
 
 // Attack start
-if (keyboard_check_pressed(vk_space) && !attack) {
+if (keyboard_check_pressed(ord("S")) && !attack) {
     instance_create_layer(x, y, "Instances", obj_attackRange);
     attack = true;
-    sprite_index = spr_catAttack;
-    image_index = 0;
-}
-
-// Animation/state logic
-if (attack) {
-    if (sprite_index != spr_catAttack) {
-        sprite_index = spr_catAttack;
-        image_index = 0;
-    }
-
-    if (image_index >= image_number - 1) {
-        attack = false;
-    }
-}
-else {
-    if (moving) {
-        if (sprite_index != spr_catWalk) {
-            sprite_index = spr_catWalk;
-            image_index = 0;
-        }
-    }
-    else {
-        if (sprite_index != spr_player) {
-            sprite_index = spr_player;
-            image_index = 0;
-        }
-    }
 }
 
 if (damage_cooldown > 0) {
@@ -105,12 +75,4 @@ if (instance_exists(obj_noteUI)) {
 
 if (walk_particle_timer > 0) {
     walk_particle_timer--;
-}
-
-if (global.gflash_timer > 0) {
-    global.gflash_timer--;
-}
-
-if (global.flash_timer > 0) {
-    global.flash_timer--;
 }

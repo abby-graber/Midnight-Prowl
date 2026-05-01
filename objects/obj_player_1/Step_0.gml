@@ -12,12 +12,22 @@ if (keyboard_check(vk_left)) {
     hsp = -move_speed;
     moving = true;
     image_xscale = -abs(image_xscale);
+	
+	if (place_meeting(x, y + 1, obj_block) && (walk_particle_timer <= 0)) {
+		part_particles_burst(ps, x - 20, bbox_bottom - 5, ps_walk)
+		walk_particle_timer = walk_particle_delay;
+	}
 }
 
 if (keyboard_check(vk_right)) {
     hsp = move_speed;
     moving = true;
     image_xscale = abs(image_xscale);
+	
+	if (place_meeting(x, y + 1, obj_block) && (walk_particle_timer <= 0)) {
+		part_particles_burst(ps, x - 20, bbox_bottom - 5, ps_walk)
+		walk_particle_timer = walk_particle_delay;
+	}
 }
 
 if (keyboard_check(vk_up)) {
@@ -171,4 +181,8 @@ else {
 // Damage cooldown
 if (damage_cooldown > 0) {
     damage_cooldown--;
+}
+
+if (walk_particle_timer > 0) {
+    walk_particle_timer--;
 }
