@@ -9,9 +9,12 @@ void main()
 
     // Red tint
     vec3 redTint = vec3(1.0, 0.0, 0.0);
+	
+	// Limit flash strength
+    float strength = u_flash * 0.5;
 
     // Blend between original color and red
-    vec3 finalColor = mix(base.rgb, redTint, u_flash);
+    vec3 finalColor = mix(base.rgb, redTint, strength);
 
     gl_FragColor = vec4(finalColor, base.a) * v_vColour;
 }

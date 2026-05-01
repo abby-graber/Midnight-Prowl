@@ -59,3 +59,8 @@ else if (state == "wander")
     x += hsp;
     y += vsp;
 }
+
+if (destroy_buffer > 0)
+{
+    destroy_buffer--;
+}

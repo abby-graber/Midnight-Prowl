@@ -9,3 +9,6 @@ global.flash_duration = 10
 
 global.gflash_timer = 0
 global.gflash_duration = 20
+
+global.enemy_flash_timer = 0
+global.enemy_flash_duration = 10
