@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_table",
+  "%Name":"obj_hiddenSpot",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_chair","path":"objects/obj_chair/obj_chair.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_table",
+  "name":"obj_hiddenSpot",
   "overriddenProperties":[],
   "parent":{
     "name":"Items",
     "path":"folders/Objects/Items.yy",
   },
-  "parentObjectId":{
-    "name":"obj_block",
-    "path":"objects/obj_block/obj_block.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_table",
-    "path":"sprites/spr_table/spr_table.yy",
+    "name":"spr_hiddenSpot",
+    "path":"sprites/spr_hiddenSpot/spr_hiddenSpot.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

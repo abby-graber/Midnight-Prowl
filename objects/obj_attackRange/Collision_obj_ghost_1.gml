@@ -1,5 +1,7 @@
 global.enemy_flash_timer = global.enemy_flash_duration;
 
+global.player_score += 8
+
 var dir = point_direction(x, y, other.x, other.y);
 
 var kb = 20;
