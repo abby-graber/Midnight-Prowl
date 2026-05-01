@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_ambiance",
+  "name":"sh_ambiance",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

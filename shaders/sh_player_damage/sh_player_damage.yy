@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_player_damage",
+  "name":"sh_player_damage",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -21,26 +21,26 @@ draw_set_valign(fa_middle);
 // --------------------
 // GAME START BUTTON
 // --------------------
-//draw_set_font(fnt_ui);
+draw_set_font(fnt_ui);
 
-//var game_w = string_width(gameStartText);
-//var game_h = string_height(gameStartText);
+var game_w = string_width(gameStartText);
+var game_h = string_height(gameStartText);
 
-//var game_left   = centerX - game_w / 2;
-//var game_right  = centerX + game_w / 2;
-//var game_top    = y_game - game_h / 2;
-//var game_bottom = y_game + game_h / 2;
+var game_left   = centerX - game_w / 2;
+var game_right  = centerX + game_w / 2;
+var game_top    = y_game - game_h / 2;
+var game_bottom = y_game + game_h / 2;
 
-//if (mx >= game_left && mx <= game_right && my >= game_top && my <= game_bottom)
-//{
-//    draw_set_color($FF49FF);
-//}
-//else
-//{
-//    draw_set_color(c_white);
-//}
+if (mx >= game_left && mx <= game_right && my >= game_top && my <= game_bottom)
+{
+    draw_set_color($FF49FF);
+}
+else
+{
+    draw_set_color(c_white);
+}
 
-//draw_text(centerX, y_game, gameStartText);
+draw_text(centerX, y_game, gameStartText);
 
 // --------------------
 // TUTORIAL BUTTON
