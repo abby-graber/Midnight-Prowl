@@ -1,4 +1,4 @@
-global.enemy_flash_timer = global.enemy_flash_duration;
+other.enemy_flash_timer = other.enemy_flash_duration;
 
 global.player_score += 8
 

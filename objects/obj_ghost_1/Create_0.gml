@@ -1,3 +1,6 @@
+enemy_flash_timer = 0;
+enemy_flash_duration = 10;
+
 move_speed = 2;
 run_speed = 4;
 
