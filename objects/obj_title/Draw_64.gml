@@ -75,7 +75,7 @@ draw_text(centerX, y_title, titleText);
 
 draw_set_font(fnt_ui_2);
 
-draw_text(centerX, y_title + 50, "Sneaha Santra, Siya Desale, Ananya Patchigolla, Abby Graber");
+draw_text(centerX, y_title + 50, "Artist: Sneaha Santra, Designer: Siya Desale, Producer: Ananya Patchigolla, Programmer: Abby Graber");
 
 // Reset draw settings afterward
 draw_set_halign(fa_left);

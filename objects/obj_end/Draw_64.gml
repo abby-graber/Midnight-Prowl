@@ -7,7 +7,7 @@ var centerX = 688;
 var titleY = 625;
 
 draw_set_color(c_white);
-draw_text(centerX, titleY, "End");
+draw_text(centerX, titleY, "End: You Win!");
 
 // Button
 draw_set_font(fnt_ui);
