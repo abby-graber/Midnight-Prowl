@@ -49,6 +49,8 @@ The story emphasizes trust, problem-solving, and the bond between the cat and it
 ---
 
 ## Levels
+### Turtorial
+- Player is given an introduction to the game mechanics
 
 ### Level 1: Locked Room Escape
 - Focus on movement and basic mechanics  
@@ -129,6 +131,10 @@ Paths: Level 1,2, & 3
 Particles: 
 - Floor particles when walking in the platforming levels
 - Smoke particles when ghosts die
+
+Viewports: Level Tutorial, 1, & 2
+
+Smart Opponents: obj_mouse & obj_ghost_1
 
 ---
 
