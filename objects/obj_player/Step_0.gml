@@ -42,7 +42,8 @@ x += hsp;
 
 // Jump
 if (keyboard_check_pressed(vk_up) && (place_meeting(x, y + 1, obj_block) || place_meeting(x, y + 1, obj_box))) {
-    vspeed = jump_height;
+    audio_play_sound(catjump, 1, false);
+	vspeed = jump_height;
 }
 
 // Gravity
@@ -63,6 +64,7 @@ y += vspeed;
 
 // Attack start
 if (keyboard_check_pressed(vk_space) && !attack) {
+	audio_play_sound(tailswoosh, 1, false);
     instance_create_layer(x, y, "Instances", obj_attackRange);
     attack = true;
     sprite_index = spr_catAttack;

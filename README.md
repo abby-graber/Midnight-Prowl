@@ -63,7 +63,6 @@ The story emphasizes trust, problem-solving, and the bond between the cat and it
 ### Level 3: Cooperative Escape
 - Dual-character gameplay (cat + owner)  
 - Requires coordination and puzzle-solving  
-- More complex level design  
 
 ---
 
@@ -84,8 +83,10 @@ The story emphasizes trust, problem-solving, and the bond between the cat and it
 ## Cheat Codes
 - **Alt + N** — Next room (disabled during story sequences)  
 - **Alt + B** — Previous room  
-- **Alt + R** — Reset game  
-- **Alt + F** — Toggle fullscreen  
+- **Alt + S** — Reset room 
+- **Alt + F** — Toggle fullscreen 
+- **Alt + G** — Restart game
+- **Alt + C** — Toggle camera size
 
 ---
 
@@ -116,11 +117,27 @@ The story emphasizes trust, problem-solving, and the bond between the cat and it
 
 ---
 
+## Grad Implemenation
+
+Shaders:
+- sh_enemy_damage
+- sh_player_damage
+- sh_green_flash
+
+Paths: Level 1,2, & 3
+
+Particles: 
+- Floor particles when walking in the platforming levels
+- Smoke particles when ghosts die
+
+---
+
 ## Assets & Licensing
-- Artwork by Abby Graber (2026)  
+- Artwork & Animations by Abby Graber (2026)  
 - Some assets generated using AI tools
 - Sound licensing: Levels 1-3: https://e-balbuena-music.itch.io/spooky-tune-jam-2025
 - Start & End Music:https://redlight-chill.itch.io/spooky-tune-jam-2024
+- Sad Trumpet freesound_community (https://pixabay.com/sound-effects/musical-sad-trumpet-46384/) Licensed under Pixabay https://pixabay.com/service/license-summary/
 Enemy collision
 Fast Collision Reverb: https://pixabay.com/sound-effects/film-special-effects-fast-collision-reverb-14611/
 Licence: Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=14611">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=14611">Pixabay</a>
@@ -146,6 +163,7 @@ Jump and spark: https://pixabay.com/sound-effects/film-special-effects-jump-and-
 License: Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6136">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6136">Pixabay</a>
 https://pixabay.com/service/license-summary/
 
+
 ---
 
 ## Tech Stack
@@ -156,4 +174,4 @@ https://pixabay.com/service/license-summary/
 
 ## Notes
 - Designed for keyboard and mouse  
-- Best experienced through exploration and discovery  
+- Best experienced through exploration and discovery 

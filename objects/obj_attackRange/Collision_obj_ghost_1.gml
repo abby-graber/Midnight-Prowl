@@ -1,3 +1,5 @@
+audio_play_sound(hittingenemy, 1, false);
+
 other.enemy_flash_timer = other.enemy_flash_duration;
 
 global.player_score += 8
