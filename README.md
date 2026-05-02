@@ -118,7 +118,9 @@ The story emphasizes trust, problem-solving, and the bond between the cat and it
 
 ## Assets & Licensing
 - Artwork by Abby Graber (2026)  
-- Some assets generated using AI tools  
+- Some assets generated using AI tools
+- Sound licensing: Levels 1-3: https://e-balbuena-music.itch.io/spooky-tune-jam-2025
+- Start & End Music:https://redlight-chill.itch.io/spooky-tune-jam-2024
 
 ---
 
