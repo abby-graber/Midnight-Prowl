@@ -29,11 +29,11 @@ if (keyboard_check(vk_right)) {
 		walk_particle_timer = walk_particle_delay;
 	}
 }
-
 if (keyboard_check(vk_up)) {
     vsp = -move_speed;
     moving = true;
 }
+
 
 if (keyboard_check(vk_down)) {
     vsp = move_speed;
@@ -146,6 +146,7 @@ if (vsp != 0) {
 
 // Attack start
 if (keyboard_check_pressed(vk_space) && !attack) {
+    audio_play_sound(tailswoosh, 1, false);
     instance_create_layer(x, y, "Instances", obj_attackRange);
     attack = true;
     sprite_index = spr_catAttack;

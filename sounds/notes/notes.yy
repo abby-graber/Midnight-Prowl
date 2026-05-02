@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"notes",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.5920181,
+  "exportDir":"",
+  "name":"notes",
+  "parent":{
+    "name":"Midnight Prowl",
+    "path":"Midnight Prowl.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"notes.mp3",
+  "volume":1.0,
+}

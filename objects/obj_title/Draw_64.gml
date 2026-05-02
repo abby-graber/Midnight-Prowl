@@ -13,6 +13,7 @@ var titleText = "Press Start Productions";
 var y_game = 300;
 var y_tutorial = 375;
 var y_title = 650;
+var gamebottom2=700;
 
 // Align text from center
 draw_set_halign(fa_center);
@@ -30,6 +31,7 @@ var game_left   = centerX - game_w / 2;
 var game_right  = centerX + game_w / 2;
 var game_top    = y_game - game_h / 2;
 var game_bottom = y_game + game_h / 2;
+var game_bottom2
 
 if (mx >= game_left && mx <= game_right && my >= game_top && my <= game_bottom)
 {
