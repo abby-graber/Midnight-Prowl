@@ -1,4 +1,5 @@
 if (other.destroy_buffer <= 0)
 {
-    instance_destroy(other);
+    global.player_score += 5
+	instance_destroy(other);
 }

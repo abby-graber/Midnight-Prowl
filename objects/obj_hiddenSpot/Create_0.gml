@@ -1,0 +1,1 @@
+global.spawned_table_mouse = false;
