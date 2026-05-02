@@ -1,7 +1,7 @@
 if (current_room != room) {
     audio_stop_all();
     
-    if (room == rm_startScreen || room == rm_endScreen) {
+    if (room == rm_startScreen || room == rm_endScreen || room == rm_tutorial) {
         audio_play_sound(snd_opening, 1, true);
     } else if (room == rm_level1) {
         audio_play_sound(snd_level1, 1, true);

@@ -13,3 +13,5 @@ hp = 10;
 knockback_hsp = 0;
 knockback_vsp = 0;
 knockback_decay = 0.8; // how quickly it slows down
+
+ps = part_system_create_layer("Assets", false)
