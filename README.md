@@ -121,6 +121,30 @@ The story emphasizes trust, problem-solving, and the bond between the cat and it
 - Some assets generated using AI tools
 - Sound licensing: Levels 1-3: https://e-balbuena-music.itch.io/spooky-tune-jam-2025
 - Start & End Music:https://redlight-chill.itch.io/spooky-tune-jam-2024
+Enemy collision
+Fast Collision Reverb: https://pixabay.com/sound-effects/film-special-effects-fast-collision-reverb-14611/
+Licence: Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=14611">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=14611">Pixabay</a>
+https://pixabay.com/service/license-summary/
+
+Letter Token sound 
+Coin Collision Sound: https://pixabay.com/sound-effects/film-special-effects-coin-collision-sound-342335/
+License: Sound Effect by <a href="https://pixabay.com/users/u_vdwj1c20kz-50311970/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=342335">u_vdwj1c20kz</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=342335">Pixabay</a>
+https://pixabay.com/service/license-summary/
+
+Eat sound (chomp)
+EatingSFX.wav: https://pixabay.com/sound-effects/people-eatingsfxwav-14588/
+License: Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=14588">freesound_community</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=14588">Pixabay</a>
+https://pixabay.com/service/license-summary/
+
+Cat swooshing sound (swoosh)
+Swoosh Sound Effect for Fight Scenes or Transitions - 2: https://pixabay.com/sound-effects/film-special-effects-swoosh-sound-effect-for-fight-scenes-or-transitions-2-149890/
+License: Sound Effect by <a href="https://pixabay.com/users/dheerajakam4jor-36410348/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=149890">Dheeraj M4JOR</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=149890">Pixabay</a>
+https://pixabay.com/service/license-summary/
+
+Jump sound
+Jump and spark: https://pixabay.com/sound-effects/film-special-effects-jump-and-spark-6136/
+License: Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6136">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6136">Pixabay</a>
+https://pixabay.com/service/license-summary/
 
 ---
 
