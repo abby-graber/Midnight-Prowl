@@ -73,6 +73,10 @@ draw_set_font(fnt_title);
 draw_set_color(c_white);
 draw_text(centerX, y_title, titleText);
 
+draw_set_font(fnt_ui_2);
+
+draw_text(centerX, y_title + 50, "Sneaha Santra, Siya Desale, Ananya Patchigolla, Abby Graber");
+
 // Reset draw settings afterward
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

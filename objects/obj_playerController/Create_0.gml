@@ -12,6 +12,9 @@ global.level3_story_done = false
 
 global.has_key = false
 
+global.cat_enter = false
+global.owner_enter = false
+
 // start paused
 global.startLevel = false
 
