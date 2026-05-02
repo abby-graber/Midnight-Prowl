@@ -1,0 +1,1 @@
+part_particles_burst(ps, x, y, ps_die)

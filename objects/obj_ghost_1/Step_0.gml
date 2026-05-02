@@ -81,6 +81,6 @@ if (hp <= 0)
     instance_destroy();
 }
 
-if (global.enemy_flash_timer > 0) {
-    global.enemy_flash_timer--;
+if (enemy_flash_timer > 0) {
+    enemy_flash_timer--;
 }

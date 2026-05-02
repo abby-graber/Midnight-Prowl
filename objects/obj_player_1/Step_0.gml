@@ -186,3 +186,7 @@ if (damage_cooldown > 0) {
 if (walk_particle_timer > 0) {
     walk_particle_timer--;
 }
+
+if (global.gflash_timer > 0) {
+    global.gflash_timer--;
+}

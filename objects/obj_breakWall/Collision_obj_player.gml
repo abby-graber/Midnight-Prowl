@@ -1,0 +1,1 @@
+obj_player.vspeed = 0

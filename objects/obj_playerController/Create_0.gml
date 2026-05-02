@@ -10,6 +10,8 @@ global.level1_story_done = false
 global.level2_story_done = false
 global.level3_story_done = false
 
+global.has_key = false
+
 // start paused
 global.startLevel = false
 
@@ -25,3 +27,5 @@ else if (room == rm_level2) {
 else if (room == rm_level3) {
 	global.room_start_score = global.player_score
 }
+
+

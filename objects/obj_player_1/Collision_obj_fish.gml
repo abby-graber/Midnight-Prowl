@@ -1,4 +1,5 @@
 instance_destroy(other)
+global.gflash_timer = global.gflash_duration;
 
 if (hp < 100) {
 	hp += 10

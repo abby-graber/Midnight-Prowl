@@ -8,7 +8,7 @@ void main()
     vec4 base = texture2D(gm_BaseTexture, v_vTexcoord);
 
     // Red tint
-    vec3 purpleTint = vec3(0.2, 0.0, 0.3);
+    vec3 purpleTint = vec3(1.0, 0.0, 0.0);
 	
 	// Limit flash strength
     float strength = u_flash * 0.5;

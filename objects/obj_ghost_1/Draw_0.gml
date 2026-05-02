@@ -1,6 +1,6 @@
-if (global.enemy_flash_timer > 0) {
+if (enemy_flash_timer > 0) {
 
-    var flash_amount = global.enemy_flash_timer / global.enemy_flash_duration;
+    var flash_amount = enemy_flash_timer / enemy_flash_duration;
 
     shader_set(sh_enemy_damage);
 
